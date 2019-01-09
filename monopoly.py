@@ -68,7 +68,7 @@ while not gamewin:
         name=player_names[i]
         if pos+roll>=n:
             print('you passed Go collect 200 rupees')
-            player_money[i]+=00
+            player_money[i]+=200
             pos=pos+roll-n
             #if player gets more than n positon
         else:
